@@ -1,0 +1,14 @@
+:root {
+  --black: #2d3238;
+  --blue: #00b8f0;
+  --dk-blue: #1792c7;
+  --lt-blue: #f3f9ff;
+  --lt-blue-2: #afd6ff;
+  --blue-border: #cddef1;
+  --white: #fff;
+  --container: 1130px;
+}
+
+$blue-gradient: linear-gradient(180deg, #1792c7 0%, #00b8f0 100%);
+$dk-blue-gradient: linear-gradient(180deg, #1792c7 0%, #00b8f0 100%);
+$lt-blue-gradient: linear-gradient(180deg, #00b8f0 0%, #00b8f0 0.01%, #b2eefc 73.96%);

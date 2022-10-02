@@ -1,0 +1,81 @@
+.page-content h1 {
+	font-size:2em;
+	margin:0 0 .5rem 0;
+	font-weight:600;
+}
+
+.page-content h2 {
+	font-size:1.5em;
+	margin:0 0 .5rem 0;
+	font-weight:600;
+}
+
+.page-content h3 {
+	font-size:1.3em;
+	margin:0 0 .5rem 0;
+	font-weight:600;
+	
+}
+
+.page-content h4 {
+font-size:1.2em;
+	margin:0 0 .5rem 0;
+	font-weight:600;
+}
+.page-content h5 {
+	font-size:1.1em;
+	margin:0 0 .5rem 0;
+	font-weight:600;
+}
+
+.catalog-grid {
+	background: transparent !important;
+}
+
+
+.page-content blockquote {
+	text-align:center;
+    background: #dbdbdb;
+    margin: 0 !important;
+    padding: 2rem;
+    color: #5c5c5c;
+ 
+}
+.page-content blockquote p {
+	color:inherit;
+}
+
+.page-content blockquote p:last-child {
+	margin:0;
+}
+
+
+@media (max-width:1024px) {
+	.home .catalog-grid,
+	.home .news{
+		display:none;
+	}
+	.header .header-nav .header__menu .menu .menu-item.menu-item-has-children:hover>.sub-menu {
+	max-height:300px;
+	overflow:auto;
+}
+}
+
+
+.page-content table td {
+	width: auto;
+    border: 1px solid #a7a7a7;
+    padding: 0.5rem 1rem;
+}
+
+.page-content table tr:nth-child(odd) {
+	background: rgb(213 0 0 / 36%);
+}
+
+.page-content {
+	overflow: auto;
+}
+
+.page-content table tr:hover {
+	    background: rgb(213 0 0 / 75%);
+}
